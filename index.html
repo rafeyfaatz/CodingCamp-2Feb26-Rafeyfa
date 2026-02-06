@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Web</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+        <h1>To-do List</h1>
+
+            <form id="todoForm">
+                <input type="text" id="todo-input" placeholder="Add a new task..." >
+                <input type="date" id="todo-date" aria-label="Enter due date">
+                <button type="submit" id="add-button">+</button>
+            </form>
+<div class ="controls">
+         <select id="filter">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="pending">Pending</option>
+            </select>
+            <button id="deleteAll">Delete All</button>
+</div>
+
+       <div class="table">
+    <div class="table-header">
+        <span>Task</span>
+        <span>Due Date</span>
+        <span>Status</span>
+        <span>Actions</span>
+    </div>
+
+    <ul id="todo-list"></ul>
+</div>
+
+    </div>  
+<script src="js/script.js"></script>
+</body>
+</html>
