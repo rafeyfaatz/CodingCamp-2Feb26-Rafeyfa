@@ -7,7 +7,7 @@ const deleteAllBtn = document.getElementById("deleteAll");
 
 let todos = [];
 
-document.getElementById("todoForm").addEventListener("submit", function (e) {
+form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   if (todoInput.value.trim() === "" || todoDate.value === "") {
