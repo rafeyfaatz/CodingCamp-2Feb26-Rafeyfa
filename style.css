@@ -7,12 +7,10 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #f8f1e7; 
+  background: #f8f1e7;
   margin: 0;
+  padding: 40px 0;
 }
-
 
 .container {
   background: #fff7ed;
